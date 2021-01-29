@@ -1,0 +1,15 @@
+.App {
+    display: flex;
+    /*quebrar a linha dependendo do tamanho da tela*/
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.GroupCards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: #00FA9A;
+}

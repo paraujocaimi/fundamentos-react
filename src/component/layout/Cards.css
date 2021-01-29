@@ -1,0 +1,26 @@
+.Cards {
+    flex: 1;
+    /*Pois ele é "filho da classe App que esta declarada como flex*/
+    display: flex;
+    flex-direction: column;
+    /*Ele cresce na direção de coluna*/
+    min-width: 300px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.Cards .Conteudo {
+    flex: 1;
+    /* Somente o conteudo vai crescer o footer fica igual*/
+    background-color: whitesmoke;
+    color: black;
+    padding: 15px 0px;
+}
+
+.Cards .Footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px 0px;
+}
